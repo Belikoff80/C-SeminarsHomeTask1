@@ -92,6 +92,7 @@ string PairCollection(int[] array)
 
 
 int[] array = GenArray(10, 1, 10);
+
 Console.WriteLine("заполненный массив: ");
 PrintArray(array);
 Console.WriteLine("Сумма элементов массива с нечетным индексом: ");
