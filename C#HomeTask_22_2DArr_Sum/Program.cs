@@ -93,6 +93,7 @@ string SumColumNumer(int[,] matrix)
         {
             AvgSum += matrix[i, j];
         }
+        AvgSum = AvgSum / matrix.GetLength(1);
         Result = Result + AvgSum.ToString() + ";";
 
     }
